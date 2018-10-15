@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">GeoFencingPrototype</string>
+    <string name="my_location_activity_title">My Location</string>
+    <string name="google_api_key">AIzaSyCZji21HU5zXseafXUvr5FuipjNg5AmQHM</string>
+    <string name="location_permission_dialog_title">Location Permission</string>
+    <string name="location_permission_explanation">Please go to setting and provide permission for location</string>
+    <string name="ok">OK</string>
+    <string name="no_interrnet_connection">No internet connection</string>
+    <string name="retry">Retry</string>
+
+
+
+
+
+    <string name="geofence_channel_name">GEOFENCE CHANNEL</string>
+
+
+</resources>
