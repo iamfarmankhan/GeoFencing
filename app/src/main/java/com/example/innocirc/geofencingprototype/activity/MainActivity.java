@@ -56,14 +56,14 @@ import static com.example.innocirc.geofencingprototype.utils.Constant.GEO_DURATI
 import static com.example.innocirc.geofencingprototype.utils.Constant.MY_PERMISSIONS_REQUEST_LOCATION;
 
 public class MainActivity extends AppCompatActivity implements OnMapReadyCallback, GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener, LocationListener, ResultCallback<Status> {
-    SupportMapFragment mMap;
+    private SupportMapFragment mMap;
     private GoogleMap mGoogleMap;
     private GoogleApiClient googleApiClient;
     private FusedLocationProviderClient mFusedLocationClient;
-    boolean isCurrentLocationAvailable = false;
-    LocationRequest mLocationRequest;
-    Location mCurrentLocation;
-    Marker mMarker;
+    private boolean isCurrentLocationAvailable = false;
+    private LocationRequest mLocationRequest;
+    private Location mCurrentLocation;
+    private Marker mMarker;
     private PendingIntent geoFencePendingIntent;
     private final int GEOFENCE_REQ_CODE = 0;
     private Marker geoFenceMarker;
